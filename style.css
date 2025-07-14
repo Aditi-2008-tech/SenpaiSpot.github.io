@@ -3,6 +3,7 @@ body {
 }
 code, pre {
   font-family: 'Fira Code', monospace;
+  margin: 0;
   background: #f5f5f5;
   padding: 4px;
   border-radius: 4px;
