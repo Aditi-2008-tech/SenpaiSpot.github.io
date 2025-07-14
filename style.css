@@ -17,9 +17,6 @@ nav a {
   color: #00ffff;
   text-decoration: none;
 }
-nav:not(:last-child){
-  border-inline-end: solid 2px #888888;
-}
 nav a:hover {
   color: #fff;
   text-shadow: 0 0 5px #0ff, 0 0 15px #0ff;
