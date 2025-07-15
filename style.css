@@ -70,6 +70,7 @@ nav a:hover {
 }
 main {
   padding: 0;
+  font-size: 18px;
   margin-right: 80px;
   margin-left: 80px;
 }
