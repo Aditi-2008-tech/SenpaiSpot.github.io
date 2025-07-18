@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop - SenpaiSpot</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <style>
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+      background: white;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    .product-title {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .coming-soon {
+      color: #888;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="logo">Senpai Spot</div>
+    <div class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="#">PROJECTS</a>
+      <a href="shop.html">SHOP</a>
+    </div>
+  </nav>
+  <header>
+    <h1>🛍️ SenpaiSpot Shop</h1>
+    
+  </header>
+  <main>
+    <h2>Products Coming Soon!</h2>
+    <h3>Sorry these are just mockups. Products are ready. But you will be able to buy them once they are added in stock.</h3>
+    <h3>Affiliation is in progress.</h3>
+
+    <hr class="divider" >
+    <div class="shop-grid">
+      <div class="product">
+        <img src="Coder Girl tee.jpeg" alt="Coder Girl Boxy Tee" />
+        <div class="product-title">
+          <h3>Coder Girl Boxy Tee</h3>
+          <p>$28.00</p>
+          <a href="" target="_blank" class="buy-button">Buy Now at Printify</a>
+        </div>
+      </div>
+      <div class="product">
+        <img src="Thanks a latte mug.jpg" alt="Thanks A Latte Mug" />
+        <div class="product-title">
+          <h3>Thanks A Latte Mug</h3>
+          <p>$18.00</p>
+          <a href="" target="_blank" class="buy-button">Buy Now at Printify</a>
+        </div>
+      </div>
+      <div class="product">
+        <img src="Coffee themed tee.jpeg" alt="Stylish Coffee-Themed T-Shirt" />
+        <div class="product-title">
+          <h3>Stylish Coffee-Themed T-Shirt</h3>
+          <p>$34.00</p><a href="" target="_blank" class="buy-button">Buy Now at Printify</a>
+        </div>
+      </div>
+      <div class="product">
+        <img src="Forest themed journal.jpeg" alt="Dreamy Forest Spiral bound journal" />
+        <div class="product-title">
+          <h3>Dreamy Forest Spiral bound journal</h3>
+          <p>$20.00</p><a href="" target="_blank" class="buy-button">Buy Now at Printify</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Aditi Ghadia</p>
+  </footer>
+</body>
+</html>
